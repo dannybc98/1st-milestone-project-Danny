@@ -1,0 +1,188 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(197, 246, 197);
+
+}
+
+
+
+.bg-img {
+    background-image: url("/assets/images/madeira1.jpg");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.bg-img2 {
+    background-image: url("/assets/images/sunset.jpg");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+
+}
+
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: lugrasimo;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin: 0 auto;
+    background-color: rgb(197, 246, 197);
+
+}
+
+#introduction {
+    text-align: center;
+    font-size: 350%;
+    font-family: lugrasimo;
+    color: rgb(158, 181, 164);
+    margin-top: 50%;
+    margin-bottom: 7%;
+
+
+
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+
+}
+
+.image-container {
+    flex: 0 0 33.33%;
+    margin-right: 20px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    flex: 1;
+    /* Allow the text container to occupy available space */
+    max-width: 30%;
+    /* Limit the width of the text container to 50% of the available space */
+    font-size: 25px;
+    text-align: justify;
+    font-family: 'Edu SA Beginner', cursive;
+
+}
+
+footer {
+
+    width: 100%;
+    background-color: rgb(124, 221, 124);
+    margin-top: 20px;
+
+}
+
+
+.social-networks {
+    text-align: center;
+
+
+
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #777777;
+}
+
+#activities {
+    background-color: rgb(197, 246, 197);
+
+}
+
+
+/* -------FORM HERE-------- */
+
+
+.signup-form {
+
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+
+
+
+}
+
+.signup-form h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
