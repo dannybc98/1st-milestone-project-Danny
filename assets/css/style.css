@@ -1,21 +1,27 @@
 html,
 body {
-    height: 100%;
+    height: 0;
     margin: 0;
     padding: 0;
     background-color: rgb(197, 246, 197);
 
 }
 
-
+#content-wrapper {
+    min-height: calc(100vh - 200px);
+}
 
 .bg-img {
     background-image: url("/assets/images/madeira1.jpg");
-    height: 300px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 350px;
     position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+
+
 
 }
 
@@ -51,28 +57,32 @@ body {
 }
 
 .content {
-    height: 100%;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 20px;
     margin: 0 auto;
-    background-color: rgb(197, 246, 197);
+
 
 }
+
+
 
 #introduction {
     text-align: center;
     font-size: 350%;
     font-family: lugrasimo;
     color: rgb(158, 181, 164);
-    margin-top: 50%;
+
     margin-bottom: 7%;
 
 
 
 }
+
+/* --------HTML page images and text styling---------- */
 
 .image-row {
     display: flex;
@@ -89,25 +99,30 @@ body {
 
 .image {
     width: 100%;
-    height: auto;
+    height: 380px;
+
 }
 
 .text-container {
     flex: 1;
-    /* Allow the text container to occupy available space */
     max-width: 30%;
-    /* Limit the width of the text container to 50% of the available space */
     font-size: 25px;
     text-align: justify;
     font-family: 'Edu SA Beginner', cursive;
 
 }
 
+/* -------------------FOOTER HERE------------------ */
 footer {
 
     width: 100%;
     background-color: rgb(124, 221, 124);
     margin-top: 20px;
+
+    left: 0;
+    bottom: 0;
+
+
 
 }
 
@@ -130,23 +145,36 @@ footer {
     color: #777777;
 }
 
-#activities {
-    background-color: rgb(197, 246, 197);
+/* ---TRAVEL INFO CONTENT PAGE---- */
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
 
 }
+
+.info {
+    flex: 1 1 300px;
+    min-width: 300px;
+    max-width: 50%;
+    border: 1px solid rgb(2, 59, 9);
+    padding: 20px;
+}
+
+
+
 
 
 /* -------FORM HERE-------- */
 
-
 .signup-form {
 
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
+    color: rgb(6, 58, 31);
+    background-color: rgba(230, 244, 231, 0.6);
+    width: 100%;
+    text-align: center;
     padding: 30px;
+    bottom: 0;
 
 
 
@@ -158,17 +186,17 @@ footer {
 }
 
 .text-input {
-    background: transparent;
+
     color: #fafafa;
-    width: 100%;
+    width: 25%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    border: 1px solid #043b20;
     border-radius: 2px;
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: #144404;
 }
 
 .join-button {
@@ -180,6 +208,7 @@ footer {
     background-color: #f16c6b;
     color: #fafafa;
     display: block;
+
 }
 
 .join-button:hover {
