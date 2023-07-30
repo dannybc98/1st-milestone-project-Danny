@@ -1,6 +1,6 @@
 <h1 align="center">Visit Madeira</h1>
 
-[View the live project here.](-----)
+[View the live project here.](https://dannybc98.github.io/1st-milestone-project-Danny/)
 
 This website is designed as a guide for anyone who is planning to visit Madeira Island and have a unique experience.Whether you're a first-time or a returning traveler, this website provides you with valuable information about the main attractions and activities that Madeira has to offer.
 
