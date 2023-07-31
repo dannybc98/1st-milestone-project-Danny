@@ -7,9 +7,7 @@ body {
 
 }
 
-#content-wrapper {
-    min-height: calc(100vh - 200px);
-}
+
 
 .bg-img {
     background-image: url("../images/madeirahome.jpg");
@@ -29,6 +27,15 @@ body {
     background-image: url("../images/madeirainfo.jpg");
     height: 300px;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bg-img3 {
+    background-image: url("../images/madeirafun.jpg");
+    height: 300px;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
