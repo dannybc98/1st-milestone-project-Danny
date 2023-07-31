@@ -12,7 +12,7 @@ body {
 }
 
 .bg-img {
-    background-image: url("../images/madeira1.jpg");
+    background-image: url("../images/madeirahome.jpg");
     height: 350px;
     position: relative;
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@ body {
 }
 
 .bg-img2 {
-    background-image: url("../images/sunset.jpg");
+    background-image: url("../images/madeirainfo.jpg");
     height: 300px;
     background-position: center;
     background-repeat: no-repeat;
@@ -49,6 +49,7 @@ body {
     text-decoration: none;
     font-size: 17px;
     font-family: lugrasimo;
+    text-shadow: -1px 0 black;
 }
 
 .topnav a:hover {
@@ -89,6 +90,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -117,8 +119,6 @@ footer {
 
     width: 100%;
     background-color: rgb(124, 221, 124);
-    margin-top: 20px;
-
     left: 0;
     bottom: 0;
 
@@ -145,6 +145,48 @@ footer {
     color: #777777;
 }
 
+/* ----THINGS TO DO PAGE CONTENT HERE */
+.beach-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px;
+
+
+}
+
+.beach-text {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.beach-image {
+    flex: 1;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.beach-map {
+    flex: 1;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.beach-map iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+.beach-image img {
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
+
 /* ---TRAVEL INFO CONTENT PAGE---- */
 
 .info-container {
@@ -161,6 +203,15 @@ footer {
     padding: 20px;
 }
 
+.info h1 {
+    font-family: lugrasimo;
+}
+
+.info p {
+    font-family: 'Edu SA Beginner', cursive;
+    line-height: 35px;
+}
+
 
 
 
@@ -169,28 +220,36 @@ footer {
 
 .signup-form {
 
-    color: rgb(6, 58, 31);
-    background-color: rgba(230, 244, 231, 0.6);
-    width: 100%;
+    color: #ffffff;
     text-align: center;
     padding: 30px;
     bottom: 0;
-
-
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/madeiraform1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: lugrasimo;
 
 }
 
 .signup-form h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
+    color: #ffffff;
+    margin-bottom: 60px;
+    font-family: lugrasimo;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .text-input {
 
-    color: #fafafa;
+    color: #000000;
     width: 25%;
     height: 25px;
-    margin: 5px 0 20px 0;
+    margin-top: 20px;
     border: 1px solid #043b20;
     border-radius: 2px;
 }
@@ -205,8 +264,8 @@ footer {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
+    background-color: #ffffff;
+    color: #000000;
     display: block;
 
 }
@@ -214,4 +273,65 @@ footer {
 .join-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
+}
+
+/* -----MEDIA QUERIES FOR BETTER VIEWING IN TABLET AND MOBILE */
+
+@media screen and (max-width: 1396px) {
+    .content {
+        width: 80%;
+
+
+    }
+
+    .text-container {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .image-row {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 943px) {
+
+    .bg-img {
+        height: 200px;
+    }
+
+    .topnav a {
+        font-size: 70%;
+    }
+
+    #introduction {
+        font-size: 140%;
+
+
+    }
+
+
+    .content {
+        width: 80%;
+
+
+    }
+
+    .text-container {
+        max-width: 100%;
+        margin-top: 20px;
+        font-size: 100%;
+    }
+
+    .image-row {
+        display: block;
+    }
+
+    .image {
+        width: 100%;
+        height: 200px;
+    }
+
+
+
 }
