@@ -12,7 +12,7 @@ body {
 }
 
 .bg-img {
-    background-image: url("images/madeira1.jpg");
+    background-image: url("assets/images/madeira1.jpg");
     height: 350px;
     position: relative;
     background-repeat: no-repeat;
