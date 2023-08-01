@@ -87,11 +87,9 @@ The Home page sets the tone for the website, featuring captivating a hero image 
 
 ![Home Hero Image](assets/images/heroimage1.png)
 
-The Home page sets the tone for the website, featuring captivating hero images showcasing Madeira's picturesque landscapes, inviting users to explore the island's beauty.
+The content of the home page answers the user's most important question which is why they should visit this place, by showcasing some pictures of Madeira's nature, aitivities and culinary delights.
 
 ![Content of Home page](assets/images/homecontent.png)
-
-The content of the home page answers the user's most important question which is why they should visit this place, by showcasing some pictures of Madeira's nature, aitivities and culinary delights.
 
 #### Things to do Page:
 
@@ -99,7 +97,7 @@ The hero image on the Things To Do page immediately captures users' attention an
 
 ![Things to do Hero Image](assets/images/thingshero.png)
 
-Below the hero image, a comprehensive list of activities is presented, each accompanied by captivating images and informative descriptions, helping travelers plan their itineraries.
+Below the hero image, a comprehensive list of activities is presented, each accompanied by captivating images, informative descriptions and google maps links to the locations, helping travelers plan their itineraries.
 
 ![Activities list](assets/images/thingscontent.png)
 
@@ -121,7 +119,7 @@ The page also includes a subscription form, allowing users to receive updates, s
 
 Consistency is maintained across all pages with a footer displaying social links.
 
-![Footer]()
+![Footer](assets/images/footer.png)
 
 ### Future Features
 
