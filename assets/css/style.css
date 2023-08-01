@@ -19,7 +19,7 @@ body {
 
 .bg-img2 {
     background-image: url("../images/madeirainfo.jpg");
-    height: 300px;
+    height: 350px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +28,7 @@ body {
 
 .bg-img3 {
     background-image: url("../images/madeirafun.jpg");
-    height: 300px;
+    height: 350px;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
