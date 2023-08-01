@@ -7,8 +7,7 @@ body {
 
 }
 
-
-
+/* ---Hero images---- */
 .bg-img {
     background-image: url("../images/madeirahome.jpg");
     height: 350px;
@@ -16,11 +15,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-
-
-
-
 }
 
 .bg-img2 {
@@ -48,6 +42,8 @@ body {
 
 }
 
+/* ----NAVIGATION BUTTONS---- */
+
 .topnav a {
     float: left;
     color: #ffffff;
@@ -57,6 +53,7 @@ body {
     font-size: 17px;
     font-family: lugrasimo;
     text-shadow: -1px 0 black;
+    font-weight: bold;
 }
 
 .topnav a:hover {
@@ -64,6 +61,7 @@ body {
     color: black;
 }
 
+/* --------HTML page images and text styling---------- */
 .content {
 
     display: flex;
@@ -72,25 +70,16 @@ body {
     align-items: center;
     padding-top: 20px;
     margin: 0 auto;
-
-
 }
-
-
 
 #introduction {
     text-align: center;
     font-size: 350%;
     font-family: lugrasimo;
     color: rgb(158, 181, 164);
-
     margin-bottom: 7%;
-
-
-
 }
 
-/* --------HTML page images and text styling---------- */
 
 .image-row {
     display: flex;
@@ -104,6 +93,7 @@ body {
 .image-container {
     flex: 0 0 33.33%;
     margin-right: 20px;
+
 }
 
 .image {
@@ -118,27 +108,21 @@ body {
     font-size: 25px;
     text-align: justify;
     font-family: 'Edu SA Beginner', cursive;
-
+    margin-right: 65px;
 }
 
 /* -------------------FOOTER HERE------------------ */
 footer {
-
     width: 100%;
     background-color: rgb(124, 221, 124);
     left: 0;
     bottom: 0;
-
-
 
 }
 
 
 .social-networks {
     text-align: center;
-
-
-
 }
 
 .social-networks li {
@@ -148,45 +132,59 @@ footer {
 .social-networks i {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
-    color: #777777;
+    padding: 2%;
+    color: #000000;
+}
+
+.social-networks i:hover {
+    color: #FF0000;
 }
 
 /* ----THINGS TO DO PAGE CONTENT HERE */
-.beach-section {
+.activities {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     margin: 50px;
-
-
 }
 
-.beach-text {
-    flex: 1;
-    padding: 0 20px;
-}
-
-.beach-image {
+.activities-text {
     flex: 1;
     padding: 0 20px;
     text-align: center;
 }
 
-.beach-map {
+.activities-text h1 {
+    font-family: lugrasimo;
+}
+
+.activities-text p {
+
+    margin-top: 80px;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 120%;
+}
+
+.activities-image {
     flex: 1;
     padding: 0 20px;
     text-align: center;
 }
 
-.beach-map iframe {
+.activities-map {
+    flex: 1;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.activities-map iframe {
     width: 100%;
     height: 300px;
     border: none;
 }
 
-.beach-image img {
+.activities-image img {
     height: 100%;
     max-width: 100%;
     object-fit: cover;
@@ -217,6 +215,8 @@ footer {
 .info p {
     font-family: 'Edu SA Beginner', cursive;
     line-height: 35px;
+    font-size: 120%;
+
 }
 
 
@@ -230,7 +230,6 @@ footer {
     color: #ffffff;
     text-align: center;
     padding: 30px;
-    bottom: 0;
     height: 600px;
     display: flex;
     flex-direction: column;
