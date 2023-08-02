@@ -174,11 +174,11 @@ The consistent footer with social links enables users to easily connect with the
 
 ## Finished Product
 
-| Page         | Desktop version                                                     |
-| ------------ | ------------------------------------------------------------------- |
-| Home         | ![Desktop index page image](assets/images/homepage.png)             |
-| Things to do | ![Desktop treatments page image](assets/images/thingstodopage1.png) |
-| Travel Info  | ![Desktop book now page image](assets/images/travelinfopage.png)    |
+| Page         | Desktop version                                               |
+| ------------ | ------------------------------------------------------------- |
+| Home         | ![Home page image](assets/images/homepage.png)                |
+| Things to do | ![Things to do page image](assets/images/thingstodopage1.png) |
+| Travel Info  | ![Travel info page image](assets/images/travelinfopage.png)   |
 
 ### Unfixed Bugs
 
@@ -217,8 +217,8 @@ The project was deployed to GitHub Pages using the following steps...
 5. After "main" has been selected and saved, the page will automatically refresh.
 6. A live link to the website will then appear at the top of the page.
 
-Development Code: This code is used during the software development process. Developers write, modify, and test this code to build and enhance the functionality of a software application.
-Deployed Code: Deployed code refers to the version of the software that has been released and made available to end-users. It is the stable and production-ready version that people can use.
+- Development Code: This code is used during the software development process. Developers write, modify, and test this code to build and enhance the functionality of a software application.
+- Deployed Code: Deployed code refers to the version of the software that has been released and made available to end-users. It is the stable and production-ready version that people can use.
 
 ## Credit
 
