@@ -132,8 +132,12 @@ Consistency is maintained across all pages with a footer displaying social links
 ### Validator Testing
 
 - HTML files passed the [W3C Validator](https://validator.w3.org/#validate_by_input) with no errors found.
+
+  Home page html validation
   ![W3C Message](assets/images/homevalidation.png)
+  Things to do page html validation
   ![W3C Message](assets/images/activitiesvalidation.png)
+  Info page html validation
   ![W3C Message](assets/images/infovalidation.png)
 
 - CSS file passed the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) with no errors found.
