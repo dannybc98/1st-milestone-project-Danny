@@ -176,11 +176,11 @@ The consistent footer with social links enables users to easily connect with the
 
 ## Finished Product
 
-| Page         | Desktop version                                                    |
-| ------------ | ------------------------------------------------------------------ |
-| Home         | ![Desktop index page image](assets/images/homepage.png)            |
-| Things to do | ![Desktop treatments page image](assets/images/thingstodopage.png) |
-| Travel Info  | ![Desktop book now page image](assets/images/travelinfopage.png)   |
+| Page         | Desktop version                                                     |
+| ------------ | ------------------------------------------------------------------- |
+| Home         | ![Desktop index page image](assets/images/homepage.png)             |
+| Things to do | ![Desktop treatments page image](assets/images/thingstodopage1.png) |
+| Travel Info  | ![Desktop book now page image](assets/images/travelinfopage.png)    |
 
 ### Unfixed Bugs
 
