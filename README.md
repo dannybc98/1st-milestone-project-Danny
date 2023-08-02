@@ -22,6 +22,7 @@ This website is designed as a guide for anyone who is planning to visit Madeira 
   - [Future Features](#future-features "Future Features")
 - [Testing](#testing "Testing")
   - [Validator Testing](#validator-testing "Validator Testing")
+  - [Elements Testing](#elements-testing "Elements Testing")
   - [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
 - [Technologies Used](#technologies-used "Technologies Used")
   - [Main Languages Used](#main-languages-used "Main Languages Used")
@@ -32,6 +33,18 @@ This website is designed as a guide for anyone who is planning to visit Madeira 
   - [Acknowledgments](#acknowledgements "Acknowledgements")
 
 ## User Experience
+
+### User Stories
+
+- As a traveler, I want the "Travelling to Madeira" website to be easy to navigate, allowing me to find information about various destinations and activities effortlessly.
+
+- As a traveler, I want the website to provide engaging and visually appealing content, showcasing the beauty of Madeira and enticing me to explore the island.
+
+- As a traveler, I want easy access to the essential travel information, such as visa requirements, local transportation options, and safety tips, to plan my trip effectively.
+
+- As a traveler, I want the website to have clear and user-friendly controls for interactive elements, such as maps, and images to enhance my browsing experience.
+
+- As a traveler, I want the website to be responsive and mobile-friendly, enabling me to access it conveniently on various devices, such as smartphones and tablets, while I explore Madeira.
 
 ### Site Purpose:
 
@@ -77,7 +90,7 @@ The website about traveling to Madeira has three pages with distinct goals: the 
 
 #### Navigation links:
 
-The website features navigation buttons on each page, allowing easy access to the Home, Things To Do, and Travel Info sections. The active page is highlighted, providing users with clear navigation feedback.
+The website features navigation buttons on each page, allowing easy access to the Home, Things To Do, and Travel Info sections. The buttons have the hover effect, providing users with clear navigation feedback.
 
 ![Navigation buttons](assets/images/navigation.png)
 
@@ -93,7 +106,7 @@ The content of the home page answers the user's most important question which is
 
 #### Things to do Page:
 
-The hero image on the Things To Do page immediately captures users' attention and gives them an idea of the exciting experiences they can enjoy in Madeira.
+The striking hero image and comprehensive list of activities on the Things To Do page captivate users and inspire them to explore the various experiences Madeira has to offer. The well-organized layout and informative descriptions empower users to make informed decisions about their travel itinerary, elevating their overall travel planning experience.
 
 ![Things to do Hero Image](assets/images/thingshero.png)
 
@@ -103,7 +116,7 @@ Below the hero image, a comprehensive list of activities is presented, each acco
 
 #### Travel Info Page:
 
-The Travel Info page follows the hero image pattern, presenting a beautiful image of Madeira that encourages users to explore further.
+The visually appealing hero image and essential travel information on the Travel Info page instill confidence in users, knowing they have access to valuable resources and tips for their upcoming trip to Madeira.
 
 ![Travel Info Hero Image](assets/images/infohero.png)
 
@@ -111,13 +124,13 @@ Below the hero image, users can find essential travel information, including vis
 
 ![Travel Information](assets/images/infocontent.png)
 
-The page also includes a subscription form, allowing users to receive updates, special offers, and travel tips directly to their email.
+The inclusion of the subscription form establishes a personal connection with users, allowing them to receive relevant updates and promotions, enhancing engagement and fostering a sense of loyalty.
 
 ![Subscription form](assets/images/infoform.png)
 
 #### Footer:
 
-Consistency is maintained across all pages with a footer displaying social links.
+The consistent footer with social links enables users to easily connect with the website through popular social media platforms, promoting user engagement and brand visibility. Improving overall user convenience and satisfaction.
 
 ![Footer](assets/images/footer.png)
 
@@ -144,6 +157,30 @@ Consistency is maintained across all pages with a footer displaying social links
   ![W3C Message](assets/images/cssvalidation.png)
 
 - The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+
+### Elements Testing
+
+- General
+
+| Feature           | Outcome                                                                                                                              | Pass/Fail |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------- |
+| Navigation links  | Hover effect and links are working as expected, providing easy navigation across the website.                                        | Pass      |
+| Social Links      | Open the specific website on a new tab.                                                                                              | Pass      |
+| Responsive Design | Ensure the website layout and elements adjust appropriately to different screen sizes, allowing seamless viewing on various devices. | Pass      |
+| Google Maps       | Display interactive maps for each activity's location, assisting users in understanding its geographical context.                    | Pass      |
+| Email Input       | Include an input field for users to enter their email address for subscription.                                                      | Pass      |
+| Email Validation  | Ensure that the email input requires a valid email format before submission.                                                         | Pass      |
+| Subscribe Button  | Hover effect works, and the form submits when clicked, allowing users to submit the email                                            | Pass      |
+| Success Message   | Display a success message after clicking on submit button to confirm the user's                                                      |
+| action.           | Pass                                                                                                                                 |
+
+## Finished Product
+
+| Page         | Desktop version                                                    |
+| ------------ | ------------------------------------------------------------------ |
+| Home         | ![Desktop index page image](assets/images/homepage.png)            |
+| Things to do | ![Desktop treatments page image](assets/images/thingstodopage.png) |
+| Travel Info  | ![Desktop book now page image](assets/images/travelinfopage.png)   |
 
 ### Unfixed Bugs
 
