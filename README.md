@@ -132,10 +132,12 @@ Consistency is maintained across all pages with a footer displaying social links
 ### Validator Testing
 
 - HTML files passed the [W3C Validator](https://validator.w3.org/#validate_by_input) with no errors found.
-  ![W3C Message]()
+  ![W3C Message](assets/images/homevalidation.png)
+  ![W3C Message](assets/images/activitiesvalidation.png)
+  ![W3C Message](assets/images/infovalidation.png)
 
-- CSS file passed the [W3C Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) with no errors found.
-  ![W3C Message]()
+- CSS file passed the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) with no errors found.
+  ![W3C Message](assets/images/cssvalidation.png)
 
 - The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 
