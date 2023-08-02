@@ -164,15 +164,13 @@ The consistent footer with social links enables users to easily connect with the
 - General
 
 | Feature           | Outcome                                                                                                                              | Pass/Fail |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------- | --- |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------- | ---------------- | ------------------------------------------------------------------------------------------ | ---- |
 | Navigation links  | Hover effect and links are working as expected, providing easy navigation across the website.                                        | Pass      |
 | Social Links      | Open the specific website on a new tab.                                                                                              | Pass      |
 | Responsive Design | Ensure the website layout and elements adjust appropriately to different screen sizes, allowing seamless viewing on various devices. | Pass      |
 | Google Maps       | Display interactive maps for each activity's location, assisting users in understanding its geographical context.                    | Pass      |
 | Email Input       | Include an input field for users to enter their email address for subscription.                                                      | Pass      |
-| Email Validation  | Ensure that the email input requires a valid email format before submission.                                                         | Pass      |
-| Subscribe Button  | Hover effect works, and the form submits when clicked, allowing users to submit the email.                                           | Pass      |
-| Success Message   | Display a success message after clicking on submit button to confirm the user's. Message opens in new tab.                           | Pass      |     |
+| Email Validation  | Ensure that the email input requires a valid email format before submission.                                                         | Pass      | Subscribe Button | Hover effect works, and the form submits when clicked, allowing users to submit the email. | Pass |
 
 ## Finished Product
 
